@@ -2,49 +2,57 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Divya Venkat"
+  label: "Software Developer"
+  picture: /assets/img/round_profile.png 
+  email: divyavenkatraman234@gmail.com <divyavenkatraman234@gmail.com>
+  phone: "(647) 395-1926"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    I'm a programmer, writer, and designer, currently working for Moody's Analytics. I'm always 
+    on the lookout for interesting conversations and cool projects. Most importantly, I mess up and learn from it - constantly.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    address: "77 Gerrard St W, Apt 1508"
+    postalCode: "M5G2A1"
+    city: "Toronto"
+    countryCode: "CA"
+    region: "ON"
   profiles:
     - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+      username: "divya_venn"
+      url: "https://twitter.com/divya_venn"
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Divya Venkatraman"
+      url: "https://www.linkedin.com/in/divya-v-257632120/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "Moody's Analytics"
+    position: "Software Developer"
+    website: "https://www.moodysanalytics.com/product-list/axis"
+    startDate: "2022-06-20"
     endDate: ""
-    summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+    summary: "C++ developer for insuretech team Axis"
+    highlights: 
+      - "Programmed highly specialized financial models bolstered by deep domain research for growing clients"
+      - "Independent research into implementation of new features"
+      - "Initiated restructuring project to reduce SQL database redundancy"
+  - company: "Global Atlantic Financial Group"
+    position: "Intern"
+    website: "https://www.globalatlantic.com/investor-relations"
+    startDate: "2021-06-01"
+    endDate: "2021-09-01"
+    summary: "Independently researched optimization of processes across teams"
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Strategically restructured large-scale database schema to decrease query times by 73%"
+      - "Reduced annual operating costs by over 15k by automating critical report generation"
+  - company: "GetACab"
+    position: "Intern"
+    website: ""
+    startDate: "2021-06-01"
+    endDate: "2021-09-01"
+    summary: "Developer for white label cloud-based mobile dispatching SAAS for the taxi industry"
+    highlights:
+      - "Architected and deployed geohash encoding infrastructure to efficiently write high bandwidth positional coordinate signals"
+      - "Saved 16 ms on every transaction by modifying  citymap geometrical analysis algorithm"
+      - "Created secure ETL workflows to migrate sensitive location data from a legacy datastore"
 volunteer:
   - organization: "CoderDojo"
     position: "Teacher"
@@ -55,12 +63,12 @@ volunteer:
     highlights:
       - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+  - institution: "Northeastern University"
+    area: "Computer Engineering"
+    studyType: "Bachelors"
+    startDate: "2018-09-01"
+    endDate: "2022-05-20"
+    gpa: "3.81"
     courses:
       - "DB1101 - Basic SQL"
       - "CS2011 - Java Introduction"
@@ -76,26 +84,29 @@ publications:
     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
-  - name: "Web Development"
-    level: "Master"
+  - name: "OOP"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
+      - "C++"
+      - "Java"
+      - "Python"
+  - name: "Data"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "SQL"
+      - "MongoDB"
+      - "Postgres"
+      - "R"
+  - name: "Machine Learning"
+    keywords:
+      - "tensorflow"
+  - name: "Fun Stuff"
+    keywords:
+      - "Bash"
 languages:
-  - language: "English"
-    fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
+  - language: "English (Fluent)"
+  - language: "Tamil (Fluent)"
+  - language: "Spanish (Intermediate)"
+  - language: "Japanese (Beginner)"
+  - language: "Hindi (Beginner)"
 references:
   - name: "Erlich Bachman"
     reference: >
