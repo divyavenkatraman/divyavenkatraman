@@ -57,13 +57,11 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             blog
-    url:               /blog/
+    url:               "https://divyavenn.substack.com/"
   - title:             projects
     url:               /projects/
   - title:             resume
     url:               /resume/
-  - title:             documentation
-    url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -92,12 +90,12 @@ paginate_path:         /blog/:num/
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(78,89,173)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(51,54,74)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -120,10 +118,10 @@ defaults:
   - scope:
       path:            hyde/
     values:
-      accent_color:    rgb(38,139,210)
-      theme_color:     rgb(32,32,32)
+      accent_color:    rgb(78,89,173)
+      theme_color:     rgb(51,54,74)
       accent_image:
-        background:    rgb(32,32,32)
+        background:    rgb(51,54,74)
         overlay:       false
 
   # Don't include documents in assets in the sitemap
@@ -355,8 +353,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-# twitter:
-#   username:            <username>
+twitter:
+   username:            divya_venn
 
 # Used for facebook open graph
 # facebook:
@@ -366,10 +364,10 @@ plugins:
 
 # Used on index and about sites
 # social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+   name:                Divya Venkat
+   links:
+     - https://twitter.com/divya_venn
+     - https://github.com/divyavenkatraman
 
 
 # Plugin Configs

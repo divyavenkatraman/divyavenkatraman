@@ -1,6 +1,6 @@
 ---
 layout: project
-title: '@qwtel'
+title: 'Nutri-tracker'
 caption: How I use Hydejack on my personal site.
 description: >
   This is how I use Hydejack on my personal site. 

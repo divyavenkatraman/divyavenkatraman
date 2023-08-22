@@ -4,7 +4,7 @@
   "short_name": "Divya's Portfolio",
   "description": "a personal sites that is meant to impress.",
   "start_url": "/?utm_source=homescreen",
-  "theme_color": "rgb(25,55,71)",
+  "theme_color": "rgb(51,54,74)",
   "background_color": "#fff",
   "orientation": "portrait",
   "display": "minimal-ui",

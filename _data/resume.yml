@@ -3,19 +3,9 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Divya Venkat"
-  label: "Software Developer"
-  picture: /assets/img/round_profile.png 
+  label: "software developer, writer, lover of good design"
   email: divyavenkatraman234@gmail.com <divyavenkatraman234@gmail.com>
   phone: "(647) 395-1926"
-  summary: >
-    I'm a programmer, writer, and designer, currently working for Moody's Analytics. I'm always 
-    on the lookout for interesting conversations and cool projects. Most importantly, I mess up and learn from it - constantly.
-  location:
-    address: "77 Gerrard St W, Apt 1508"
-    postalCode: "M5G2A1"
-    city: "Toronto"
-    countryCode: "CA"
-    region: "ON"
   profiles:
     - network: "Twitter"
       username: "divya_venn"
@@ -23,14 +13,20 @@ basics:
     - network: "LinkedIn"
       username: "Divya Venkatraman"
       url: "https://www.linkedin.com/in/divya-v-257632120/"
+    - network: "Github"
+      username: divyavenkatraman
+      url: "https://github.com/divyavenkatraman"
+    - network: "Discord"
+      username: quilly_catkin
+      url: "discordapp.com/users/quilly_catkin"
 work:
   - company: "Moody's Analytics"
     position: "Software Developer"
     website: "https://www.moodysanalytics.com/product-list/axis"
     startDate: "2022-06-20"
     endDate: ""
-    summary: "C++ developer for insuretech team Axis"
-    highlights: 
+    highlights:
+      - "C++ developer for insuretech team Axis"
       - "Programmed highly specialized financial models bolstered by deep domain research for growing clients"
       - "Independent research into implementation of new features"
       - "Initiated restructuring project to reduce SQL database redundancy"
@@ -39,8 +35,8 @@ work:
     website: "https://www.globalatlantic.com/investor-relations"
     startDate: "2021-06-01"
     endDate: "2021-09-01"
-    summary: "Independently researched optimization of processes across teams"
     highlights:
+      - "Independently researched optimization of processes across teams"
       - "Strategically restructured large-scale database schema to decrease query times by 73%"
       - "Reduced annual operating costs by over 15k by automating critical report generation"
   - company: "GetACab"
@@ -48,20 +44,11 @@ work:
     website: ""
     startDate: "2021-06-01"
     endDate: "2021-09-01"
-    summary: "Developer for white label cloud-based mobile dispatching SAAS for the taxi industry"
     highlights:
+      - Developer for white label cloud-based mobile dispatching SAAS for the taxi industry"
       - "Architected and deployed geohash encoding infrastructure to efficiently write high bandwidth positional coordinate signals"
       - "Saved 16 ms on every transaction by modifying  citymap geometrical analysis algorithm"
       - "Created secure ETL workflows to migrate sensitive location data from a legacy datastore"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
-    highlights:
-      - "Awarded 'Teacher of the Month'"
 education:
   - institution: "Northeastern University"
     area: "Computer Engineering"
@@ -72,17 +59,6 @@ education:
     courses:
       - "DB1101 - Basic SQL"
       - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
   - name: "OOP"
     keywords:
@@ -102,13 +78,15 @@ skills:
     keywords:
       - "Bash"
 languages:
-  - language: "English (Fluent)"
-  - language: "Tamil (Fluent)"
+  - language: "English"
+    fluency: "5/5"
+  - language: "Tamil"
+    fluency: "5/5"
   - language: "Spanish (Intermediate)"
+    fluency: "3/5"
   - language: "Japanese (Beginner)"
+    fluency: "1/5"
   - language: "Hindi (Beginner)"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+    fluency: "1/5"
+
+
