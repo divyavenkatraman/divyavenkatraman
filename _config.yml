@@ -1,5 +1,5 @@
 # Config
-define: &profile /assets/img/round_profile.png
+define: &profile /assets/img/lighter_round.png
 define: &sidebar /assets/img/sidebar-bg3.jpg
 # ========================================================================================
 
@@ -11,7 +11,6 @@ url:                   https://divyavenkatraman.github.io
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
 
 
 # General settings
