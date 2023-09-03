@@ -16,9 +16,6 @@ basics:
     - network: "Github"
       username: divyavenkatraman
       url: "https://github.com/divyavenkatraman"
-    - network: "Discord"
-      username: quilly_catkin
-      url: "discordapp.com/users/quilly_catkin"
 work:
   - company: "Moody's Analytics"
     position: "Software Developer"

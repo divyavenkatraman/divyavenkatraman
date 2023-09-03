@@ -1,4 +1,6 @@
 # Config
+define: &profile /assets/img/round_profile.png
+define: &sidebar /assets/img/sidebar-bg3.jpg
 # ========================================================================================
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
@@ -36,7 +38,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/round_profile.png
+logo:                  *profile
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -44,7 +46,7 @@ author:
   name:                Divya Venkat
   email:               <divyavenkatraman234@gmail.com>
   about: I like to write, code, cook,and design things. | I'm the quintessential jack - of all trades, candlestick-jumper, beanstock-jumper, who occasionally falls down and breaks her crown.
-  picture:             /assets/img/round_profile.png  
+  picture:             *profile
 
   # # Used by `jekyll-seo-tag`:
   twitter:             divya_venn
@@ -89,7 +91,7 @@ paginate_path:         /blog/:num/
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          *sidebar
 accent_color:          rgb(78,89,173)
 
 # This is used for the `theme-color` meta tag,
@@ -368,6 +370,7 @@ twitter:
    links:
      - https://twitter.com/divya_venn
      - https://github.com/divyavenkatraman
+     - divyavenn.substack.com
 
 
 # Plugin Configs
@@ -408,21 +411,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: *sidebar
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: *sidebar
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: *sidebar
       links:
         - title: Project Link
           url: https://example.com
